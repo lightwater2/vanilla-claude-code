@@ -3,7 +3,7 @@
 > An intuitive IDE for Claude Code CLI, built on [Wave Terminal](https://github.com/wavetermdev/waveterm)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/vanilla-claude-code)](https://github.com/YOUR_USERNAME/vanilla-claude-code/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/lightwater2/vanilla-claude-code)](https://github.com/lightwater2/vanilla-claude-code/stargazers)
 
 ## Overview
 
@@ -28,10 +28,10 @@ Vanilla Claude Code is a modern, terminal-first IDE designed specifically for [C
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download](https://github.com/YOUR_USERNAME/vanilla-claude-code/releases/latest) |
-| macOS (Intel) | [Download](https://github.com/YOUR_USERNAME/vanilla-claude-code/releases/latest) |
-| Windows | [Download](https://github.com/YOUR_USERNAME/vanilla-claude-code/releases/latest) |
-| Linux | [Download](https://github.com/YOUR_USERNAME/vanilla-claude-code/releases/latest) |
+| macOS (Apple Silicon) | [Download](https://github.com/lightwater2/vanilla-claude-code/releases/latest) |
+| macOS (Intel) | [Download](https://github.com/lightwater2/vanilla-claude-code/releases/latest) |
+| Windows | [Download](https://github.com/lightwater2/vanilla-claude-code/releases/latest) |
+| Linux | [Download](https://github.com/lightwater2/vanilla-claude-code/releases/latest) |
 
 ### Build from Source
 
@@ -39,7 +39,7 @@ Vanilla Claude Code is a modern, terminal-first IDE designed specifically for [C
 # Prerequisites: Go 1.21+, Node.js 20+, pnpm 8+
 
 # Clone
-git clone https://github.com/YOUR_USERNAME/vanilla-claude-code.git
+git clone https://github.com/lightwater2/vanilla-claude-code.git
 cd vanilla-claude-code
 
 # Install dependencies
@@ -144,9 +144,9 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## Links
 
-- [Documentation](https://github.com/YOUR_USERNAME/vanilla-claude-code/wiki)
-- [Issues](https://github.com/YOUR_USERNAME/vanilla-claude-code/issues)
-- [Discussions](https://github.com/YOUR_USERNAME/vanilla-claude-code/discussions)
+- [Documentation](https://github.com/lightwater2/vanilla-claude-code/wiki)
+- [Issues](https://github.com/lightwater2/vanilla-claude-code/issues)
+- [Discussions](https://github.com/lightwater2/vanilla-claude-code/discussions)
 
 ---
 

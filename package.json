@@ -9,12 +9,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/vanilla-claude-code.git"
+    "url": "https://github.com/lightwater2/vanilla-claude-code.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/vanilla-claude-code/issues"
+    "url": "https://github.com/lightwater2/vanilla-claude-code/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/vanilla-claude-code#readme",
+  "homepage": "https://github.com/lightwater2/vanilla-claude-code#readme",
   "keywords": [
     "claude",
     "claude-code",

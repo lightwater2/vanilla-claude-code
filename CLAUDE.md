@@ -194,7 +194,7 @@ main              - 안정 릴리스
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/vanilla-claude-code.git
+git clone https://github.com/lightwater2/vanilla-claude-code.git
 cd vanilla-claude-code
 
 # Install dependencies
@@ -232,7 +232,7 @@ pnpm typecheck    # TypeScript check
 1. Go to GitHub Settings > Developer settings > OAuth Apps
 2. Create new OAuth App:
    - **Application name:** Vanilla Claude Code
-   - **Homepage URL:** https://github.com/YOUR_USERNAME/vanilla-claude-code
+   - **Homepage URL:** https://github.com/lightwater2/vanilla-claude-code
    - **Callback URL:** http://127.0.0.1:8888/callback
    - **Enable Device Flow:** ✅
 
