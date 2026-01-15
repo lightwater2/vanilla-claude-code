@@ -1,0 +1,53 @@
+/* Terminal Component Styles */
+
+.terminalContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.terminal {
+  flex: 1;
+  padding: var(--spacing-sm);
+}
+
+.terminal :global(.xterm) {
+  height: 100%;
+}
+
+.terminal :global(.xterm-viewport) {
+  overflow-y: auto !important;
+}
+
+.terminal :global(.xterm-viewport::-webkit-scrollbar) {
+  width: 8px;
+}
+
+.terminal :global(.xterm-viewport::-webkit-scrollbar-track) {
+  background: transparent;
+}
+
+.terminal :global(.xterm-viewport::-webkit-scrollbar-thumb) {
+  background-color: var(--border-color);
+  border-radius: 4px;
+}
+
+.claudeBadge {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, #9333ea 100%);
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.claudeIcon {
+  font-size: 14px;
+}

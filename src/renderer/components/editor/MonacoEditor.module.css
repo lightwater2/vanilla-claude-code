@@ -1,0 +1,65 @@
+/* Monaco Editor Component Styles */
+
+.editorContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.editorHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 12px;
+}
+
+.filePath {
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.language {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 2px 6px;
+  background-color: var(--bg-hover);
+  border-radius: 4px;
+}
+
+.editor {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Monaco Editor Overrides */
+.editor :global(.monaco-editor) {
+  padding-top: 0 !important;
+}
+
+.editor :global(.monaco-editor .margin) {
+  background-color: var(--bg-tertiary) !important;
+}
+
+.editor :global(.monaco-editor .monaco-scrollable-element > .scrollbar > .slider) {
+  border-radius: 4px;
+}
+
+.editor :global(.monaco-editor .suggest-widget) {
+  border-radius: var(--border-radius);
+}
+
+.editor :global(.monaco-editor .monaco-hover) {
+  border-radius: var(--border-radius);
+}
