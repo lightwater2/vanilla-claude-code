@@ -8,8 +8,10 @@ import { TabBar } from './components/tabs';
 import { Terminal } from './components/terminal';
 import { MonacoEditor } from './components/editor';
 import { GitHubLogin } from './components/github';
+import { GitPanel } from './components/git';
 import { useAuthStore } from './stores/authStore';
 import { useTabStore } from './stores/tabStore';
+import { useGitStore } from './stores/gitStore';
 import type { TabType } from '@/types';
 import './styles/index.css';
 
@@ -110,12 +112,7 @@ main();
           />
         );
       case 'git':
-        return (
-          <div className="git-panel">
-            <h3>Git Changes</h3>
-            <p>Git integration coming soon...</p>
-          </div>
-        );
+        return <GitPanel onFileClick={(path) => console.log('Open file:', path)} />;
       case 'settings':
         return (
           <div className="settings-panel">
