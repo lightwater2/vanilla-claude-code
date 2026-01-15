@@ -1,0 +1,171 @@
+/* FileTree Component Styles */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-bottom: 1px solid var(--border-color);
+  min-height: 36px;
+}
+
+.title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.actionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.actionButton:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.tree {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-xs) 0;
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.1s;
+}
+
+.node:hover {
+  background-color: var(--bg-hover);
+}
+
+.directory {
+  font-weight: 500;
+}
+
+.file {
+  color: var(--text-primary);
+}
+
+.chevron {
+  width: 12px;
+  font-size: 8px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.icon {
+  font-size: 14px;
+  width: 18px;
+  text-align: center;
+}
+
+.name {
+  flex: 1;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.children {
+  /* Children are indented via paddingLeft in JS */
+}
+
+/* Empty State */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  text-align: center;
+}
+
+.emptyState p {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.openButton {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--accent-primary);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.openButton:hover {
+  background-color: var(--accent-secondary);
+}
+
+/* Loading & Error */
+.loading,
+.error {
+  padding: var(--spacing-md);
+  text-align: center;
+  font-size: 13px;
+}
+
+.loading {
+  color: var(--text-muted);
+}
+
+.error {
+  color: var(--accent-error);
+}
+
+/* Scrollbar */
+.tree::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tree::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tree::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 3px;
+}
+
+.tree::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-muted);
+}
